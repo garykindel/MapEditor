@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tileSet version="1" id="2" name="dungeon">
+    <battleBackground id="0" name="none" />
+	<battleBackground id="1" name="grass" filename="grass.png" />
+	<battleBackground id="2" name="forest" filename="forest.png" />
+	<battleBackground id="3" name="dirt" filename="dirt.png" />
+	<battleBackground id="4" name="bridge" filename="bridge.png" />
+	<layer id="0">
+		<group name="foo0">
+			<tile id="0" name="transparent" filename="transparent.png" xOffset="0" yOffset="0" />			
+		</group>
+		<group name="floor" battleBackground="2">
+			<tile id="1" name="floornowall" filename="Dungeon.png" xOffset="0" yOffset="0" trans="FF00FF" />
+			<tile id="2" name="floortopwall" filename="Dungeon.png" xOffset="1" yOffset="0" trans="FF00FF" />
+			<tile id="3" name="floorleftwall" filename="Dungeon.png" xOffset="2" yOffset="0" trans="FF00FF" />
+			<tile id="4" name="floorbottomwall" filename="Dungeon.png" xOffset="3" yOffset="0" trans="FF00FF" />
+			<tile id="5" name="floorrightwall" filename="Dungeon.png" xOffset="3" yOffset="0" trans="FF00FF" />
+		</group>
+	</layer>
+	<layer id="1">
+		<group name="foo1">
+			<tile id="0" name="transparent" filename="transparent.png" xOffset="0" yOffset="0" />
+		</group>
+	</layer>
+	<layer id="2">
+		<group name="foo1">
+			<tile id="0" name="transparent" filename="transparent.png" xOffset="0" yOffset="0" trans="FF00FF" />
+		</group>
+	</layer>
+	<layer id="3">
+			<group name="foo1">
+			<tile id="0" name="transparent" filename="transparent.png" xOffset="0" yOffset="0" trans="FF00FF" />
+			<tile id="0" name="transparent" filename="transparent.png" xOffset="0" yOffset="0" trans="FF00FF" />
+			<tile id="0" name="transparent" filename="transparent.png" xOffset="0" yOffset="0" trans="FF00FF" />
+			<tile id="0" name="transparent" filename="transparent.png" xOffset="0" yOffset="0" trans="FF00FF" />
+			<tile id="0" name="transparent" filename="transparent.png" xOffset="0" yOffset="0" trans="FF00FF" />
+		</group>
+	</layer>
+</tileSet>

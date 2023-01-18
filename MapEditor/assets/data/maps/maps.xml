@@ -1,5 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <maps>
+	<map uuid="e8af32c1-7b77-4c11-bc19-e79b3aeb78c2" name="Gary test map 2" filename="gary2.map">
+		<entrances>
+			<entrance id="0" x="7" y="0" />
+		</entrances>
+		<exits>
+			<exit map="00000000-0000-0000-0000-000000000000" entance="0" x="7" y="15" />
+		</exits>
+	</map>
+	<map uuid="8b197126-e994-426f-8f6c-826b8fad9c93" name="gary" filename="gary_town1.map">
+		<entrances>
+			<entrance id="0" x="6" y="0" />
+		</entrances>
+		<exits>
+		</exits>
+	</map>
+	<map uuid="37c65824-d36c-4dce-b26b-9f9638d80266" name="test" filename="myhack.map">
+		<entrances>
+			<entrance id="0" x="8" y="0" />
+		</entrances>
+		<exits>
+		</exits>
+	</map>
 	<map uuid="2fec311a-3334-4d8e-bc0f-2bf5bfb70ecf" name="overworld1" filename="overworld1.map">
 		<entrances>
 			<entrance id="0" x="8" y="7" />

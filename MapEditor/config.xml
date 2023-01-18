@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <config
-	baseDir="D:\Rpg\"
-	imageDir="D:\Rpg\android\rpg-android\assets\images\"
-	battleBackgroundDir="D:\Rpg\android\rpg-android\assets\images\battleBackgrounds\"
-	tileDir="D:\Rpg\android\rpg-android\assets\images\tiles\"
-	dataDir="D:\Rpg\android\rpg-android\assets\data\"
-	tileSetDir="D:\Rpg\android\rpg-android\assets\data\tilesets\"
-	mapDir="D:\Rpg\android\rpg-android\assets\data\maps\"
-	monsterRegionDir="D:\Rpg\android\rpg-android\assets\data\monsterregions\"
+	baseDir="C:\Open source\Gary\MapEditor\MapEditor\"
+	imageDir="C:\Open source\Gary\MapEditor\MapEditor\assets\images\"
+	battleBackgroundDir="C:\Open source\Gary\MapEditor\MapEditor\assets\images\battleBackgrounds\"
+	tileDir="C:\Open source\Gary\MapEditor\MapEditor\assets\images\tiles\"
+	dataDir="C:\Open source\Gary\MapEditor\MapEditor\assets\data\"
+	tileSetDir="C:\Open source\Gary\MapEditor\MapEditor\assets\data\tilesets\"
+	mapDir="C:\Open source\Gary\MapEditor\MapEditor\assets\data\maps\"
+    monsterRegionDir="C:\Open source\Gary\MapEditor\MapEditor\assets\data\monsterregions\"	
 />

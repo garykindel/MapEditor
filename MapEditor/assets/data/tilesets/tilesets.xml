@@ -2,4 +2,5 @@
 <tileSets>
 	<tileSet id="0" name="overworld-plains" />
 	<tileSet id="1" name="town" />
+	<tileSet id="2" name="dungeon" />
 </tileSets>
