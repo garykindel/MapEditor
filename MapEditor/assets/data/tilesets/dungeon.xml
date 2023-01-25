@@ -14,7 +14,14 @@
 			<tile id="2" name="floortopwall" filename="Dungeon.png" xOffset="1" yOffset="0" trans="FF00FF" />
 			<tile id="3" name="floorleftwall" filename="Dungeon.png" xOffset="2" yOffset="0" trans="FF00FF" />
 			<tile id="4" name="floorbottomwall" filename="Dungeon.png" xOffset="3" yOffset="0" trans="FF00FF" />
-			<tile id="5" name="floorrightwall" filename="Dungeon.png" xOffset="3" yOffset="0" trans="FF00FF" />
+			<tile id="5" name="floorrightwall" filename="Dungeon.png" xOffset="4" yOffset="0" trans="FF00FF" />
+			<tile id="6" name="floorllwall" filename="Dungeon.png" xOffset="5" yOffset="0" trans="FF00FF" />
+			<tile id="7" name="floorulwall" filename="Dungeon.png" xOffset="6" yOffset="0" trans="FF00FF" />
+			<tile id="8" name="floorlrwall" filename="Dungeon.png" xOffset="7" yOffset="0" trans="FF00FF" />
+			<tile id="9" name="floorurwall" filename="Dungeon.png" xOffset="8" yOffset="0" trans="FF00FF" />			
+			<tile id="10" name="floortbwall" filename="Dungeon.png" xOffset="9" yOffset="0" trans="FF00FF" />
+			<tile id="11" name="floorlrwall" filename="Dungeon.png" xOffset="10" yOffset="0" trans="FF00FF" />
+			<tile id="12" name="floortrbwall" filename="Dungeon.png" xOffset="11" yOffset="0" trans="FF00FF" />
 		</group>
 	</layer>
 	<layer id="1">

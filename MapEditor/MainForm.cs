@@ -662,7 +662,8 @@ namespace MapEditor
 					pic.Image = ((CTile)pic.Tag).image;
 				}
 			}
-		}
+			GC.Collect();
+        }
 
 		/// <summary>
 		/// Sets the brush size.
@@ -1562,10 +1563,17 @@ namespace MapEditor
 				{
 					picMiniMap.Image = newBmp;
 				});
+
+
 			}
 			catch (Exception ex)
 			{
 				MessageBox.Show(ex.ToString());
+			}
+			finally
+			{
+				GC.SuppressFinalize(this);
+				GC.Collect();
 			}
 		}
 		#endregion
